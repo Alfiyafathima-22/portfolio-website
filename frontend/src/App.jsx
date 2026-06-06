@@ -164,7 +164,7 @@ function useInView(ref) {
 }
 
 // ── API helper ────────────────────────────────────────────────
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = `${import.meta.env.VITE_API_URL}/api`;
 async function api(path, opts = {}) {
   const token = localStorage.getItem("portfolio_token");
   const res = await fetch(`${API_BASE}${path}`, {
