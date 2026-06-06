@@ -92,11 +92,11 @@ const SAMPLE_PROJECTS = [
   category: "mobile",imageUrl: null,
 },
 {
-  _id: "8",title: "Smart Light Intensity Monitoring System",featured: false,
-  description:"IoT-based system that measures ambient light intensity using LDR sensor and automatically controls smart lights based on environmental brightness. Helps in energy saving and smart automation.",
-  technologies: ["IoT", "Arduino", "LDR Sensor", "Node.js", "Automation"],
+  id: "8",title: "Air Quality Monitoring System with Telegram Alert",
+  featured: false,description:"IoT-based air quality monitoring system that measures pollution levels using sensors and sends real-time alerts via Telegram when air quality becomes unsafe. Helps in health monitoring and smart environmental awareness.",
+  technologies: ["IoT","Arduino","MQ Gas Sensor","Node.js","Telegram Bot API","Automation"],
   githubLink: "https://github.com",liveLink: "",
-  category: "other",imageUrl: null,
+  category: "other",imageUrl: null
 },
 {
   _id: "9",title: "CIVIX Scheme Information System",featured: true,
